@@ -1,0 +1,25 @@
+package anetolo.tutorialmod.handlers;
+
+
+import anetolo.tutorialmod.init.BlockInit;
+import anetolo.tutorialmod.init.ItemInit;
+
+
+
+public class RegistryHandler 
+{
+	public static void Client()
+	{
+		
+	}
+	
+	public static void Common()
+	{
+		ItemInit.init();
+		ItemInit.register();
+		
+		BlockInit.init();
+		
+		
+	}
+}
